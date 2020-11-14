@@ -7,5 +7,5 @@ func TestHelper() {
 }
 
 func SayHello(name string) {
-	fmt.Printf("Hello %s", name)
+	fmt.Printf("%s: Hello!", name)
 }
