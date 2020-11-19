@@ -9,3 +9,7 @@ func TestHelper() {
 func SayHello(name string) {
 	fmt.Printf("%s: Hello!", name)
 }
+
+func SayHelloBack(name string) string {
+	return fmt.Sprintf("%s: Hello!", name)
+}
